@@ -1,0 +1,68 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Good Moring", "Good Evening", "Good Night"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can be a friend to you, speak with you, answer your question, clear you doubts and much more.", "I will try to answer your questions.", "I would talk to you for some time."],
+         "context": [""]
+        },
+        {"tag": "Vasavi",
+         "patterns": ["Tell me about Vasavi College of Engieering.", "Tell me about this Institution.", "Give me a list of features of Vasavi College of Engineering"],
+         "responses": ["Vasavi stands to be one of the top engineering colleges in Telangana. It stands in top 100 colleges of our country. Vasavi offers Under Graduate Degree in 7 Engineering Streams and Post Graduation in 5 Streams. Vasavi also accomplishes more than 90% of its student placed in pouplar companies ruling the Industry."],
+         "context": [""]
+        },
+        {"tag": "God",
+         "patterns": ["Does GOD exists", "Is GOD there", "I want to log blood pressure results", "Blood pressure data management" ],
+         "responses": ["Who is GOD?"],
+         "context": ["who_is_god"]
+        },
+        {"tag": "who_is_god",
+         "patterns": ["The one who made us.", "The Almighty", "The one who created us" ],
+         "responses": ["I was made by Jaya Prakash, Swetha, Aishwarya, Laasya and Prathima... GOD exists"],
+         "context": ["search_blood_pressure_by_patient_id"]
+        },
+        {"tag": "yourself",
+         "patterns": ["Tell me about yourself", "Describe yourself", "Who are you", "What are you" ],
+         "responses": ["Hello there, I am Jarvis. I am your personal voice assistant, I am here for your service. Jaya Prakash's facinating dream and Swetha, Aishwarya, Laasya and Prathima's united efforts made me possible. I am excited to get on to duty and put up their name"],
+         "context": [""]
+        },
+	{"tag": "time",
+         "patterns": ["What time is it", "Tell me the time", "What is the time right now", "Can you tell me the time","Can i know the time right now" ],
+         "responses": ["time"],
+         "context": [""]
+        },
+	{"tag": "news",
+         "patterns": ["What are the news today", "Can you read me out the news on web", "Are today's news ready", "Give me a quick reading of the news please" ],
+         "responses": ["news"],
+         "context": [""]
+        },
+	{"tag": "weather",
+         "patterns": ["What is the wether report today", "What is the weather report at this place", "Can i know the weather report", "Is it possible to get today's weather report" ],
+         "responses": ["current weather"],
+         "context": [""]
+        },
+	{"tag": "joke",
+         "patterns": ["tell me a joke", "feeling bore", "can i have some entertainment", "do you know jokes" ],
+         "responses": ["tell me a joke"],
+         "context": [""]
+        }
+   ]
+}
